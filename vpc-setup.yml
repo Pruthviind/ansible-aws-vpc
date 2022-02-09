@@ -4,8 +4,8 @@
   tasks:
     - name: Import VPC Varibles
       include_vars: vars/vpc_setup
-    -name: Create vprofile VPC
-     ec2_vpc_net:
+    - name: Create vprofile VPC
+      ec2_vpc_net:
          name: "{{vpc_name}}"
          cidr_block: {{vpcCidr}}
          region: {{region}}
@@ -13,5 +13,5 @@
          dns_hostnames: yes
          tenancy: default
          state: "{{state}}"
-     register: vpcout
+      register: vpcout
 
