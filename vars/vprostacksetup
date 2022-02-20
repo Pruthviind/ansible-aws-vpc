@@ -1,8 +1,8 @@
 # Region Name
 region: "us-west-2"
 
-nginx_ami: ami-074251216af698218
-tomcat_ami: ami-074251216af698218
-memcache_ami: ami-074251216af698218
-rmq_ami: ami-074251216af698218
-mysql_ami: ami-074251216af698218
+nginx_ami: ami-0892d3c7ee96c0bf7
+tomcat_ami: ami-0892d3c7ee96c0bf7
+memcache_ami: ami-0892d3c7ee96c0bf7
+rmq_ami: ami-0892d3c7ee96c0bf7
+mysql_ami: ami-0892d3c7ee96c0bf7
